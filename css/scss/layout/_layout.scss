@@ -32,6 +32,12 @@
         border-radius: 4px;
         width: max-content;
       }
+      a{
+        cursor: pointer;
+      }
+      a:hover{
+        color: var(--Yellow);
+      }
       article{
         width: 320px;
       }
