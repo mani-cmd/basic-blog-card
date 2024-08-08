@@ -1,0 +1,49 @@
+.container{
+  display: flex;
+  width:100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  .card{
+    text-wrap: wrap;
+    word-wrap: break-word !important;
+    height: max-content;
+    background-color: #fff;
+    border: 1px solid var(--Gray);
+    border-radius: 1.2rem;
+    box-shadow: 8px 8px ;
+    padding: 0 24px;
+    .image-section{
+      img{
+        min-height: 200px;
+        border-radius: 16px;
+        margin: 24px 0;
+
+      }
+    }
+    .info-section{
+      display: grid;
+      grid-gap: 12px;
+      width: 100%;
+      #tag{
+        background-color: var(--Yellow);
+        padding: 4px 12px;
+        border-radius: 4px;
+        width: max-content;
+      }
+      article{
+        width: 320px;
+      }
+    }
+    .author-section{
+      display: flex;
+      padding: 24px 0;
+      align-items: center;
+      gap: 12px;
+      img{
+        width: 32px;
+      }
+    }
+  }
+}

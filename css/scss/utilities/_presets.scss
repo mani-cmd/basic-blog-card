@@ -1,0 +1,32 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 900
+
+.figtree-preset-1 {
+  font-family: "Figtree", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.figtree-preset-2 {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--LightGray);
+}
+
+
+.figtree-preset-3 {
+  font-family: "Figtree", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.figtree-preset-3-bold {
+  font-family: "Figtree", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  font-style: normal;
+}
